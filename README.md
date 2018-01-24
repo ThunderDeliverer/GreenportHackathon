@@ -7,4 +7,4 @@ While the full ERC20 token would need to use addresses in stead of user IDs, we 
 Comments are made up to the solidity standards and should be sufficient for understanding the code.
 
 ##### For a user new to the Ethereum development:
-To deploy the SC, you need to have Mist browser installed. There you have to synchronise the Ropsten testnet blockchain and create a user account. Afterwards copy the content of Greenport.sol file to the deployment window in the Contracts menu and select greenport() function to deploy the SC.
+To deploy the SC, you need to have Mist browser installed. There you have to synchronise the Ropsten testnet blockchain and create a user account. Afterwards copy the content of **Greenport.sol** file to the deployment window in the Contracts menu and select 'greenport()' function to deploy the SC.
