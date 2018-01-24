@@ -122,6 +122,10 @@ contract Greenport is controlled{
     return balances[_tokenOwner];
   }
 
+  /*
+  * @dev Lets app collect the user data with one call.
+  * @param _userID uint256 User that we want to retrieve information about.
+  */
   function viewUser(uint256 _userID) constant public returns (int256 theNegativeValues, int256 thePositiveValues, int256 theLastNegativeValues, int256 theLastPositiveValues, int256 theCurrentDelta, int256 theAverageDelta, int256 theMonthCounter){
     var theUser = users[_userID];
     return(theUser.negativeValues, theUser.positiveValues, theUser.lastNegativeValues, theUser.lastPositiveValues, theUser.currentDelta, theUser.averageDelta, theUser.monthCounter);
