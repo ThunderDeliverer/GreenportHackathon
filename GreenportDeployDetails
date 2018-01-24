@@ -1,5 +1,5 @@
 Contract is deployed on Ropsten testnet at:
-  0x6bCfd6181a6A4C9C9ad243637A43337058bbC64f
+  0x27330504c2c8Ef269CB5A4f3441B48F06FBC04e8
 
 The JSON interface code is:
 [{
@@ -28,8 +28,7 @@ The JSON interface code is:
 	"name": "name",
 	"outputs": [{
 		"name": "tokenName",
-		"type": "string",
-		"value": "TREE"
+		"type": "string"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -54,8 +53,7 @@ The JSON interface code is:
 	"name": "totalSupply",
 	"outputs": [{
 		"name": "",
-		"type": "int256",
-		"value": "297200"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -66,8 +64,7 @@ The JSON interface code is:
 	"name": "registrationCredits",
 	"outputs": [{
 		"name": "",
-		"type": "int256",
-		"value": "1000"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -92,8 +89,7 @@ The JSON interface code is:
 	"name": "decimals",
 	"outputs": [{
 		"name": "tokenDecimals",
-		"type": "uint8",
-		"value": "2"
+		"type": "uint8"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -121,32 +117,25 @@ The JSON interface code is:
 	"name": "users",
 	"outputs": [{
 		"name": "negativeValues",
-		"type": "int256",
-		"value": "0"
+		"type": "int256"
 	}, {
 		"name": "positiveValues",
-		"type": "int256",
-		"value": "0"
+		"type": "int256"
 	}, {
 		"name": "lastNegativeValues",
-		"type": "int256",
-		"value": "1000"
+		"type": "int256"
 	}, {
 		"name": "lastPositiveValues",
-		"type": "int256",
-		"value": "100000"
+		"type": "int256"
 	}, {
 		"name": "currentDelta",
-		"type": "int256",
-		"value": "0"
+		"type": "int256"
 	}, {
 		"name": "averageDelta",
-		"type": "int256",
-		"value": "99000"
+		"type": "int256"
 	}, {
 		"name": "monthCounter",
-		"type": "int256",
-		"value": "1"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -171,8 +160,7 @@ The JSON interface code is:
 	"name": "balances",
 	"outputs": [{
 		"name": "",
-		"type": "int256",
-		"value": "198000"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -194,8 +182,7 @@ The JSON interface code is:
 	"name": "numberOfUsers",
 	"outputs": [{
 		"name": "",
-		"type": "uint256",
-		"value": "2"
+		"type": "uint256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -206,8 +193,7 @@ The JSON interface code is:
 	"name": "symbol",
 	"outputs": [{
 		"name": "tokenSymbol",
-		"type": "string",
-		"value": "🌳α"
+		"type": "string"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -232,8 +218,7 @@ The JSON interface code is:
 	"name": "balanceOf",
 	"outputs": [{
 		"name": "accountBalance",
-		"type": "int256",
-		"value": "100000"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
@@ -244,8 +229,7 @@ The JSON interface code is:
 	"name": "deltaCreditAwardFactor",
 	"outputs": [{
 		"name": "",
-		"type": "int256",
-		"value": "2"
+		"type": "int256"
 	}],
 	"payable": false,
 	"stateMutability": "view",
